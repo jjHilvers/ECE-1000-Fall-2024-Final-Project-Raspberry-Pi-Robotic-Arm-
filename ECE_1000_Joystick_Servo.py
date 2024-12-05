@@ -16,9 +16,9 @@ servo_y = PWM(Pin(2), freq=50) #Servo for Y-direction
 servo_switch = PWM(Pin(1), freq = 50) #Servo for switch
 
 # This function will map the ADC value for the joystick to a value between -100 and 100 for ease of viewing (creating a slope between two points (m) and then creating a line y = mx + b)
-# joystick_position = value from ADC (VRx)
-# joystick_min = Move the joystick and see what the value is all the way left
-# joystick_max = Move the joystick and see what the value is all the way right
+# joystick_position = value from VRx
+# joystick_min = Find value when moved all the way to the left
+# joystick_max = Find value when moved all the way to the right
 # desired_min = -100 or 100 (depending on which direction of the joystick you want to be top or bottom)
 # desired_max = 100 or -100 (^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^)
 def get_joystick_value(joystick_position, joystick_min, joystick_max, desired_min, desired_max):
