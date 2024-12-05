@@ -6,4 +6,4 @@ For our ECE 1000 class, we were given a few options on what our final project co
 
 ## Who Are We?
 - Jonathan Hilvers - Freshman Electrical Engineering Major
-- 
+- Sulehi Jhaveri Torres - 
